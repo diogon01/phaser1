@@ -19,7 +19,7 @@ class Menu extends Phaser.State {
     this.go.visible=false;
 
     //add intro text
-    this.menuText = this.add.text(this.game.world.centerX,this.game.world.centerY, 'Click to play', {
+    this.menuText = this.add.text(this.game.world.centerX,this.game.world.centerY, 'Vamos Jogar', {
       font: '42px Arial', fill: '#ffffff', align: 'center'
     });
     this.menuText.anchor.set(0.5);
